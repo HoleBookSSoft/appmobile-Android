@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HoleBook</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sincroniza">Sincronizar</string>
+    <string name="estado">Iniciar</string>
+    <string name="hueco">Hueco</string>
+    <string name="gps">yyyyyyyyy</string>
+    <string name="acel">xxxxx</string>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <TextView
+        android:id="@+id/x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:text="X: "
+        android:paddingTop="6dip"
+        android:textColor="#43bd00"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y: "
+        android:paddingBottom="2dip"
+        android:textColor="#acacac" />
+
+
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="T: "
+        android:textColor="#5d5d5d"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="AX: "
+        android:textColor="#5d5d5d"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/ay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="AY: "
+        android:textColor="#5d5d5d"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/az"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="AZ: "
+        android:textColor="#5d5d5d"
+        android:textStyle="bold" />
+</LinearLayout>

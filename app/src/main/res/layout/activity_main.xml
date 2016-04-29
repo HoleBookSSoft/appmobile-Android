@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+
+
+
+    <TextView
+        android:text="@string/acel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_acel"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/gps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_gps"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/estado"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sincroniza"
+        android:id="@+id/button2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hueco"
+        android:id="@+id/button3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="visible" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editTextdesv"
+        android:text="1.2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tv_gps" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Des"
+        android:id="@+id/btdes"
+        android:layout_above="@+id/editTextdesv"
+        android:layout_alignRight="@+id/editTextdesv"
+        android:layout_alignEnd="@+id/editTextdesv" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editTextfact"
+        android:layout_below="@+id/editTextdesv"
+        android:layout_alignLeft="@+id/editTextdesv"
+        android:layout_alignStart="@+id/editTextdesv"
+        android:text="0.15" />
+
+</RelativeLayout>
