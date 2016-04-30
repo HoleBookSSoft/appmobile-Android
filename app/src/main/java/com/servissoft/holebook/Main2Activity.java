@@ -17,8 +17,8 @@ import com.twitter.sdk.android.core.identity.*;
 public class Main2Activity extends Activity {
 
     // Note: Your consumer key and secret should be obfuscated in your source code before shipping.
-    private static final String TWITTER_KEY = "4ypLtAH9t9bK0fcpX3h4dl7y9";
-    private static final String TWITTER_SECRET = "GId3BbJBFXfsBBbZmYepzXzsmUrmG2hbP2O5xGVWaGACN2xKO6";
+    private static final String TWITTER_KEY = "xxxxxxxxxxx";
+    private static final String TWITTER_SECRET = "xxxxxxxxxxxxxxxxxxx";
 
 
 
